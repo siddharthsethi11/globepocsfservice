@@ -1,0 +1,19 @@
+Manifest-Version: 1.0.0.202002110218
+Bundle-SymbolicName: SalesforceAPI
+Bundle-ManifestVersion: 2
+TIBCO-BW-Edition: bwe,bwcf
+Bundle-Vendor: TIBCO Software Inc.
+TIBCO-BW-ModuleSharedVariables: META-INF/module.msv
+Require-Capability: com.tibco.bw.model; filter:="(name=bwext)",com.tib
+ co.bw.palette; filter:="(name=bw.salesforce)",com.tibco.bw.sharedreso
+ urce.model; filter:="(name=bw.httpconnector)",com.tibco.bw.sharedreso
+ urce.model; filter:="(name=bw.salesforceconnection)",com.tibco.bw.bin
+ ding.model; filter:="(name=bw.rest)"
+TIBCO-BW-ConfigProfile: META-INF/default.substvar
+TIBCO-BW-Version: 6.5.1 V9 2019-02-06
+Bundle-Name: UC9_SF_Workday Module
+Bundle-Version: 1.0.0.202002110218
+Bundle-ClassPath: .
+TIBCO-BW-ApplicationModule: META-INF/module.bwm
+TIBCO-BW-JobSharedVariables: META-INF/module.jsv
+
