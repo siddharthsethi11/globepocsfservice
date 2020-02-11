@@ -11,14 +11,14 @@
   <artifactId>SalesforceAPI.application</artifactId>
   <packaging>bwear</packaging>
   <properties>
-    <skipTests>false</skipTests>
-    <bw.Home></bw.Home>
-    <project.type>Docker</project.type>
-    <k8s.property.file>k8s-dev.properties</k8s.property.file>
+    <tibco.Home></tibco.Home>
     <engineDebugPort>8090</engineDebugPort>
     <failIfNoTests>false</failIfNoTests>
+    <project.type>Docker</project.type>
     <docker.property.file>docker-dev.properties</docker.property.file>
-    <tibco.Home></tibco.Home>
+    <skipTests>false</skipTests>
+    <bw.Home></bw.Home>
+    <k8s.property.file>k8s-dev.properties</k8s.property.file>
   </properties>
   <build>
     <plugins>
